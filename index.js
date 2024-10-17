@@ -1,4 +1,4 @@
-let producto = "Remera Titular"
+let producto = "Remera Alternativa"
 
 let precio = 25300
 
