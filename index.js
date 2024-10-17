@@ -1,4 +1,4 @@
-let producto = "remera de boca"
+let producto = "Remera Titular"
 
 let precio = 25300
 
@@ -25,3 +25,17 @@ let totalcondescuento = DescuentoDiezPorciento(precio, cantidad);
 
 console.log("Total a Pagar: $" + totalcondescuento)
 alert("Total A Pagar:$" + totalcondescuento);
+
+const productos = ["Remera Titular", "Remera Suplente", "Remera Alternativa"];
+
+for(let i = 0; i < productos.length ; i++) {
+    console.log(`producto ${i+1} : ${productos[i]}`)
+}
+
+console.log("Se vendió el ultimo producto");
+let productoEliminado = productos.pop();
+
+for(let i = 0; i < productos.length ; i++){
+    console.log(`producto ${i + 1} : ${productos[i]}`)
+}
+console.log(`El Producto Eliminado Fue: ${productoEliminado}`)
